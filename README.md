@@ -35,10 +35,5 @@ pip3 install -r requirements.txt
 * Run sample test:
   - To run the sample test across platforms defined in the `browserstack.yml` file, run:
     ```
-    browserstack-sdk ./tests/test.py
-    ``` 
-* Run tests on locally hosted website:
-  - To run the local test across platforms defined in the `browserstack.yml` file, run:
-    ```
-    browserstack-sdk ./tests/local-test.py
+    browserstack-sdk ./tests/amazon-login-test.py
     ``` 
