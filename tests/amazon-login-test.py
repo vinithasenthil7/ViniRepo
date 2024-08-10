@@ -17,6 +17,7 @@ driver = webdriver.Remote(
     options=options)
 
 driver.maximize_window()
+driver.implicitly_wait(3)
 
 try:
 
