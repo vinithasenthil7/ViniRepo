@@ -18,7 +18,7 @@ git clone -b main https://github.com/browserstack/python-selenium-browserstack
 ## Create a python virtual environment and Install dependencies
 Set up a Python virtual environment (if you haven’t already):
 ```
-python3 -m venv env
+python -m venv env
 env\Scripts\activate
 ```
 Install the required dependencies using pip:
