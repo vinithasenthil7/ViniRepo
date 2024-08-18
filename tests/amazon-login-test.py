@@ -7,7 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 # The webdriver management will be handled by the browserstack-sdk
-# so tests will run browserstack without any changes to the test files!
 
 options = ChromeOptions()
 options.set_capability('sessionName', 'Amazon Login Test')
